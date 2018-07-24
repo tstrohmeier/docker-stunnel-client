@@ -8,6 +8,7 @@ I use this image if I want to work in a local env.
 ## Pull image
 
 ``` bash
+
 docker pull tstrohmeier/stunnel-client:latest
 
 ```
@@ -31,6 +32,5 @@ stunnel-proxy:
     - CONNECT=your.server.com:443
   ports:
     - "8888:8888"  
-
 
 ```
