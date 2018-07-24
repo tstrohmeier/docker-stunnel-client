@@ -7,7 +7,7 @@ cat > stunnel.conf <<_EOF_
 
 foreground = yes
 client  = yes
-[stunnelHttpsToHttpProxy]
+[stunnelHttpsToHttpclient]
 accept = ${ACCEPT}
 connect = ${CONNECT}
 
